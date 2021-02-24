@@ -1,0 +1,23 @@
+{
+  "name": "pokemon-images",
+  "version": "2.0.1",
+  "description": "images of pokemon from the pokemon api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelghinrichs/pokemon-images.git"
+  },
+  "keywords": [
+    "pokemon",
+    "images"
+  ],
+  "author": "Michael George Hinrichs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelghinrichs/pokemon-images/issues"
+  },
+  "homepage": "https://github.com/michaelghinrichs/pokemon-images#readme"
+}
