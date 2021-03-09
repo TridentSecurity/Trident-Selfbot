@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const fs = require('fs')
 const { RichEmbed } = require('discord.js')
-const config = require('./util/config.json')
+const config = require('./settings.json')
 const bot = new Discord.Client();
 
 // ---------------- PERMISSION DISCORD ---------------- \\
@@ -26,7 +26,7 @@ const Permission = [
 //  response.sendFile(__dirname + '/public/index.html');
 // });
 // var listener = app.listen(process.env.PORT, function() {
- //  console.log('Website is ready. !');
+//  console.log('Website is ready. !');
 // });
 
 
@@ -63,11 +63,11 @@ console.log(`║    ██║   ██╔══██╗██║██║  █�
 console.log(`║    ██║   ██║  ██║██║██████╔╝███████╗██║ ╚████║   ██║   ║`)
 console.log(`║    ╚═╝   ╚═╝  ╚═╝╚═╝╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   ║`)
 console.log(`╠════════════════════════════════════════════════════════╣`)
-console.log('%c║ Lets Fuck Up Discord                                   ║', 'color: red; font-weight: bold;')
-console.log(`║ Loaded ${bot.commands.size} commands.                                   ║`)
-console.log(`║ Loaded ${evtFiles.length} events.                                       ║`)
-console.log(`║ prefix ${config.prefix}                                               ║`)
-console.log(`║ use ${config.prefix}trident to show command list                      ║`)
+console.log('%c║ Lets Fuck Up Discord                                  ║', 'color: red; font-weight: bold;')
+console.log(`║ Loaded ${bot.commands.size} commands.                  ║`)
+console.log(`║ Loaded ${evtFiles.length} events.                      ║`)
+console.log(`║ prefix ${config.prefix}                                ║`)
+console.log(`║ use ${config.prefix}trident to show command list       ║`)
 console.log(`╚════════════════════════════════════════════════════════╝`)
 console.time()
 console.timeLog()
